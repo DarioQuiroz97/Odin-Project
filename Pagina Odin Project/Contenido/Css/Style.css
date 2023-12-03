@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+* {margin:0; padding:0;}
+
+body {font-family:"Lobster Two", "serif";}
+
+.Seccion-1 {background-color:#1f2937;}
+
+#Header-logo {
+    font-size: 24px;
+    color: crimson;
+}
+
+.Header-list {
+    font-size: 18px;
+     color: crimson;
+    margin:10px;
+}
+
+
+.navbar{
+    display:flex;
+    flex-direction:row;
+}
+ul{
+    display:flex;
+    flex-direction:row;
+}
+
+.Navbar-right{
+    display:flex;
+    width:100%;
+    justify-content: right;
+    align-items: center;
+}
+p {color:white;}
+
+#Texto-1 {
+    position:relative;
+    bottom:400px;
+    left:720px;
+    width:500px;
+    height:500px;
+    justify-content: center;
+    
+
+}
